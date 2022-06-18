@@ -1,10 +1,10 @@
 .container-div {
     font-family: 'Josefin Sans';
     color: #6f4024;
-    display: grid;
-    place-items: center;
-    margin-top: 5%;
-    padding-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
 }
 
 .title {
@@ -12,12 +12,8 @@
 }
 
 .playgardens-page-container {
-    width: 90%;
-    display: grid;
-    grid-template-columns: 45% 45%;
-    grid-template-rows: 24% 24% 24% 24%;
-    column-gap: 8%;
-    row-gap: 4%;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-the-playgardens {
