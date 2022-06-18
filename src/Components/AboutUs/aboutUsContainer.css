@@ -15,6 +15,10 @@
     place-self: center;
 }
 
+.aboutUsTitle h1 {
+    font-size: 34px;
+}
+
 .our-story {
     display: flex;
     flex-direction: row;
@@ -24,10 +28,11 @@
 .our-story h3 {
     color: #6f4024;
     line-height: 40px;
+    font-weight: 400;
 }
 
 .our-story div {
-    margin: 2%;
+    margin: 1%;
     display: grid;
     place-self: center;
 }
@@ -39,7 +44,7 @@
 }
 
 .additional-photos div {
-    margin: 2%;
+    margin: 4.5%;
     display: grid;
     place-self: center;
 }

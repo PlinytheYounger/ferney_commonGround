@@ -16,7 +16,7 @@ const AboutUsContainer = () => {
             </div>
             <div className='our-story'>
                 <div>
-                    <h3>Ferney CommonGround is a small family-owned berry farm and community destination located atop the Blue Ridge Plateau in Floyd, Virginia. We provide visitors a unique agritourism experience with imaginative natural playgrounds and gardens, seasonal pick-your-own berries, and a welcoming, casual space for people of all ages to gather and unwind. Come for the berries, run wild in the gardens, and stay into the golden hour among the flowers.</h3>
+                    <h3><b>Ferney CommonGround</b> is a small family-owned berry farm and community destination located atop the Blue Ridge Plateau in Floyd, Virginia. We provide visitors a unique agritourism experience with imaginative natural playgrounds and gardens, seasonal pick-your-own berries, and a welcoming, casual space for people of all ages to gather and unwind. Come for the berries, run wild in the gardens, and stay into the golden hour among the flowers.</h3>
                     
                 </div>
                 <div>

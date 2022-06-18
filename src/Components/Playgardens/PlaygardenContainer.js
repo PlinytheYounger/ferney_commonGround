@@ -51,7 +51,7 @@ const PlaygardenContainer = () => {
                         </div>
                     </div>
 
-                    <div className="guidelines">
+                    <div className="third-container">
                         <div className="guidelines">
                             <h4>Guidelines for the Playgardens:</h4>
                             <p>The playgardens are a part of Ferney CommonGround, guests who wish to visit must show a valid membership card or pay the daily admission rates.
