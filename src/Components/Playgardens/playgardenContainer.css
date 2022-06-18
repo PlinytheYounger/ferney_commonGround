@@ -96,15 +96,11 @@
 }
 
 .playgarden-img3 {
-    grid-row: 4 / 5;
-    grid-column: 1 / 2;
     display: grid;
     place-self: center;
 }
 
 .playgarden-img4 {
-    grid-row: 4 / 5;
-    grid-column: 2 / 3;
     display: grid;
     place-self: center;
 }
@@ -112,7 +108,11 @@
 
 
 @media (max-width: 540px) {
-    .playgardens-page-container {
+    .container-div {
+        margin: 1%;
+    }
+    .first-container, .second-container, .third-container, .last-container {
+        display: flex;
         flex-direction: column;
     }
     .playgardens-container {
