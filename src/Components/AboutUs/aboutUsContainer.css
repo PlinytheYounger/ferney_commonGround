@@ -1,0 +1,51 @@
+.about-us-container {
+    font-family: 'Josefin Sans';
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutUsTitle {
+    margin-top: 5%;
+    height: 20vh;
+    color: rgb(102,140,105);
+    display: grid;
+    place-self: center;
+}
+
+.our-story {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.our-story h3 {
+    color: #6f4024;
+    line-height: 40px;
+}
+
+.our-story div {
+    margin: 2%;
+    display: grid;
+    place-self: center;
+}
+
+.additional-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.additional-photos div {
+    margin: 2%;
+    display: grid;
+    place-self: center;
+}
+
+.mailing-list-button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}

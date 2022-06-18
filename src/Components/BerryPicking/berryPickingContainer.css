@@ -1,0 +1,74 @@
+.title {
+    color: rgb(102,140,105);
+    font-family: 'Josefin Sans';
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 32px;
+    margin-bottom: 5%;
+}
+
+.berry-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.prices-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h4 {
+    align-self: flex-start;
+}
+
+.h4-berry, .p-berry {
+    color: #595959;
+    font-family: 'Josefin Sans';
+    line-height: 30px;
+    text-align: justify;
+}
+
+.h4-berry {
+    text-align: center;
+}
+
+.blueberry-container {
+    margin-top: 10%;
+}
+
+.blueberry-image {
+    display: grid;
+    place-content: center;
+}
+
+@media (max-width: 540px) {
+    .berry-container {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .strawberry-container, .blueberry-container {
+        width: 100%;
+        text-align: justify;
+        margin-bottom: 5%;
+    }
+
+    .blueberry-image {
+        margin-bottom: 5%;
+    }
+
+    .prices-info {
+        order: 2;
+        margin-top: 5%;
+    }
+}

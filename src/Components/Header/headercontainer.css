@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* OVERALL STYLING*/
+header {
+    font-family: 'Josefin Sans';
+    background-color: white;
+    height: 15%;
+    border-bottom: 1px solid rgb(102,140,105);
+}
+
+
+/* LOGO & TITLE STYLING*/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+    width: 35%;
+}
+
+.logo-image {
+    display: grid;
+    place-self: center;
+}
+
+.navbar-brand {
+    margin-left: 2%;
+    text-align: center;
+    display: grid;
+    place-self: center;
+}
+
+h2 {
+    color: rgb(102,140,105);
+}
+
+.header-line {
+    background-color: rgb(102,140,105);
+    height: 50px;
+    width: 2px;
+    margin-left: 15px;
+    margin-right: 5px;
+    display: grid;
+    place-self: center;
+}
+
+.header-menu {
+    display: grid;
+    place-self: center;
+}
+
+/* MENU BUTTON & NAVIGATION STYLING*/
+
+.header-menu {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu {
+    width: 15%;
+    margin-left: 60%;
+}
+
+.dropdown {
+    position: absolute;
+    width: 300px;
+    transform: translateX(45%);
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    color: rgb(102,140,105);
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    transition: background var(--speed);
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #595959;
+}
+
+#dropdownMenuButton1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.menu-line {
+    background-color: rgb(102,140,105);
+    width: 45px;
+    height: 2px;
+}
+
+.btn-nav {
+    text-decoration: none;
+    color: rgb(102,140,105);
+}
+
+.btn-background {
+    margin: 1%;
+}
+
+.btn-background:hover {
+    background-color: #f6f0ed;
+    border: 1px solid #6f4024;
+}
+
+.btn-nav:hover {
+    color: rgb(102,140,105);
+}
+
+.row {
+    padding: 1%;
+}
+
+
+
+/*############################################
+##############################################
+##############################################
+BREAKPOINTS
+##############################################
+##############################################
+############################################*/
+
+@media (max-width: 540px) {
+    h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+    header {
+        height: 10vh;
+    }
+    .navbar-brand {
+        padding-top: 3%;
+    }
+    .logo-image > img {
+        width: 90%;
+        height: 90%;
+        margin-left: 20%;
+    }
+}
