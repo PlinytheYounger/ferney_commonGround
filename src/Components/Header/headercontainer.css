@@ -142,11 +142,20 @@ BREAKPOINTS
 ############################################*/
 
 @media (max-width: 540px) {
+    header {
+        width: 90%;
+        margin-left: 10%;
+        height: 10vh;
+    }
+
+    .header-line {
+        display: none;
+    }
+    .navbar-brand {
+        width: 50%;
+    }
     .navbar-brand h2 {
         font-size: 16px;
-    }
-    header {
-        height: 10vh;
     }
 
     .dropdown {
@@ -154,7 +163,7 @@ BREAKPOINTS
         width: 200px;
         transform: translateX(15%);
     }
-    .logo-image > img {
+    .logo-image {
         display: none;
     }
 }

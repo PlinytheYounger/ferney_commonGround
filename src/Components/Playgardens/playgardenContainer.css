@@ -1,3 +1,11 @@
+
+.overall-div {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .container-div {
     font-family: 'Josefin Sans';
     color: #6f4024;
@@ -110,10 +118,18 @@
 @media (max-width: 540px) {
     .container-div {
         margin: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .first-container, .second-container, .third-container, .last-container {
         display: flex;
         flex-direction: column;
+    }
+    .about-the-playgardens {
+        width: 40%;
+        display: grid;
+        place-self: center;
     }
     .playgardens-container {
         width: 100%;

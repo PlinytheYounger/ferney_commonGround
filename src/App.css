@@ -2,6 +2,7 @@
 
 .App {
   box-sizing: border-box;
+  width: 100vw;
   display: flex;
   text-align: center;
   font-family: 'Josefin Sans, sans-serif';

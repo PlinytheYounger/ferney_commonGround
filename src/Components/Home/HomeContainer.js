@@ -9,7 +9,7 @@ import './homecontainer.css';
 
 const HomeContainer = () => {
     return (
-        <>
+        <div className="home-container-div">
             <Header />
             <main className="container">
                 <Carousel/>
@@ -29,7 +29,7 @@ const HomeContainer = () => {
                 </div>
             </main>
             <Footer />
-        </>
+        </div>
     )
 };
 

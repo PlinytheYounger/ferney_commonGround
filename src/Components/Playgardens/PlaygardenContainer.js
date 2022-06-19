@@ -9,7 +9,7 @@ import playgardenImg4 from '../../images/Playgarden4.JPEG';
 const PlaygardenContainer = () => {
     return (
         
-        <div>
+        <div className="overall-div">
             <Header />
             <div className="container-div">
                 <div className="title">
