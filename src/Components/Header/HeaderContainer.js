@@ -15,7 +15,7 @@ const HeaderContainer = () => {
                     </div>
                     <div className="header-line"></div>
                     <div className="navbar-brand">
-                        <h2>Ferney CommonGround</h2>
+                        <h2>Ferney CommonGround.</h2>
                     </div>
                 </div>
                 <div className="header-menu">
