@@ -23,7 +23,7 @@
 .prices-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin-left: 5%;
 }
 
 h4 {
