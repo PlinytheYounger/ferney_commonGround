@@ -18,7 +18,7 @@ const BerryPickingContainer = () => {
                             <h4 className="h4-berry">PRICES (Cash or Zelle Only)</h4>
                                 <p className="p-berry"><b>Blueberries:</b><i> Pick Your Own:</i> $4.50/pound | <i>Ready Picked:</i> $4/pint </p>
                             <h4 className="h4-berry">PICKING SCHEDULE</h4>
-                                <p className="p-berry"> <b>Evening Pick:</b> 5 - sunset.</p>
+                                <p className="p-berry"> <b>Evening Pick:</b> 5pm - sunset.</p>
                                 <p><i>*Midday berry picking is closed due to heat which makes berries and people turn to mush</i></p>
                             <h4 className="h4-berry">BERRY PICKING GUIDELINES</h4>
                                 <ol>
