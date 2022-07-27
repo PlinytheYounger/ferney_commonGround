@@ -14,7 +14,7 @@ const HomeContainer = () => {
             <main className="container">
                 <Carousel/>
                 <div className="title-statement">
-                    <h1 >Family friendly pick your own blueberries in Willis County</h1>
+                    <h1 >Family-friendly pick your own blueberries in Willis, Virginia</h1>
                     <div className="text-box">
                         <h4>Our small family farm provides visitors an entirely unique agritourism experience. Together with our pick-your-own berry farm, Ferney CommonGround is meant to provoke awe of nature and reinforce the deep-rooted importance of science, community, and play throughout our lives.</h4>
                     </div>
