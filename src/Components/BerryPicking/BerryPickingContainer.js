@@ -15,7 +15,7 @@ const BerryPickingContainer = () => {
                 <div className="berry-container">
                     <div className="first-container">
                         <div className="prices-info">
-                            <h4 className="h4-berry">PRICES (Cash or Zelle Only)</h4>
+                            <h4 className="h4-berry">PRICES (Cash or Square)</h4>
                                 <p className="p-berry"><b>Blueberries:</b><i> Pick Your Own:</i> $4.50/pound | <i>Ready Picked:</i> $4/pint </p>
                             <h4 className="h4-berry">PICKING SCHEDULE</h4>
                                 <p className="p-berry"> <b>Evening Pick:</b> 5pm - sunset.</p>
